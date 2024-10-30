@@ -24,7 +24,7 @@ jobs:
 
     - name: Install and configure dstack
       run: |
-        pip install dstack
+        pip install git+https://github.com/dstackai/dstack.git@d189091ba94d3f935c87952534ced0be0ebc2102
         dstack config --url https://sky.dstack.ai --project ${{ secrets.DSTACK_PROJECT }} --token ${{ secrets.DSTACK_TOKEN }}
         dstack init
     
