@@ -30,4 +30,4 @@ jobs:
     
     - name: Run dstack dev env
       run: |
-        dstack apply -b runpod
+        dstack apply -y --force -b runpod
