@@ -1,2 +1,19 @@
 type: dev-environment
 ide: vscode
+# resources:
+#   cpu: 12000..
+#   memory: 2GB..
+# init:
+#   - while true; do dd if=/dev/urandom of=/my-volume/testfile bs=1M count=1000 conv=notrunc status=none && echo "Wrote 10MB"; done
+# instance_types: [c5.xlarge]
+# max_duration: 30s
+# retry:
+#   on_events:
+#     - error
+#   duration: 1d
+# volumes:
+#   - name: my-gcp-volume
+#     path: /my-volume
+# idle_duration: "off"
+# stop_duration: 1m
+# max_duration: off
